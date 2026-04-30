@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CART – Center for Academic Resource and Training | Modibbo Adama University, Yola</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ===================== TOP BAR ===================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="contact-info">
+        <a href="tel:+2348123456789"><i class="fas fa-phone"></i> +234 812 345 6789</a>
+        <a href="mailto:cart@mauyola.edu.ng"><i class="fas fa-envelope"></i> cart@mauyola.edu.ng</a>
+      </div>
+      <div class="social-links">
+        <span>Follow Us:</span>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <div class="container">
+      <div class="header-inner">
+
+        <!-- Logo -->
+        <div class="logo-area">
+          <div class="logo-circle">CART<br>MAU</div>
+          <div class="logo-text">
+            <h1>Center for Academic<br>Resource and Training <span>(CART)</span></h1>
+            <p>Modibbo Adama University, Yola</p>
+          </div>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav>
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About CART</a>
+          <a href="#programs">Programs</a>
+          <a href="#units">Units</a>
+          <a href="#events">Events</a>
+          <a href="#registration">Registration</a>
+          <a href="#ai-hub">AI & Innovation Hub <span class="nav-badge">New</span></a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+
+        <!-- Hamburger (Mobile) -->
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About CART</a>
+      <a href="#programs">Programs</a>
+      <a href="#units">Units / Departments</a>
+      <a href="#events">Workshops &amp; Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#registration">Registration</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container">
+
+      <!-- Hero Text -->
+      <div class="hero-content">
+        <div class="hero-tag">Welcome to</div>
+        <h2>Center for Academic<br>Resource and Training <span>(CART)</span></h2>
+        <p class="hero-sub">Advancing Academic Excellence Through Training, Innovation, and Capacity Building</p>
+        <p class="hero-desc">CART is committed to providing cutting-edge training, research support, and capacity building programs that empower students, professionals, and communities for a better future.</p>
+        <div class="hero-btns">
+          <a href="#programs" class="btn-primary"><i class="fas fa-th-large"></i> Explore Programs</a>
+          <a href="#registration" class="btn-outline"><i class="fas fa-user-plus"></i> Register Now</a>
+        </div>
+      </div>
+
+      <!-- Upcoming Event Card -->
+      <div class="hero-event">
+        <div class="event-header">🔔 Upcoming Event</div>
+        <div class="event-img">
+          <div>
+            <div class="event-badge">Workshop on</div>
+            <div class="event-big-title">Solar Power Installation &amp; Maintenance</div>
+          </div>
+        </div>
+        <div class="event-body">
+          <div class="event-title">Solar Power Installation and Maintenance</div>
+          <div class="event-meta">
+            <span><i class="far fa-calendar"></i> 14th – 18th July, 2025</span>
+            <span><i class="fas fa-map-marker-alt"></i> MAU Skills Acquisition Centre</span>
+            <span><i class="fas fa-info-circle"></i> 5-day intensive hands-on training</span>
+          </div>
+          <div class="event-price">₦20,000</div>
+        </div>
+        <div class="event-register-wrap">
+          <a href="#registration" class="btn-register">REGISTER NOW &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== PROGRAM STRIP ===================== -->
+  <div class="programs-strip">
+    <div class="programs-grid">
+
+      <div class="prog-card" data-target="#programs">
+        <div class="prog-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+        <div class="prog-title">Certificate Programs</div>
+        <div class="prog-desc">Industry-focused short courses for skill development and professional growth.</div>
+        <div class="prog-link">View Programs <i class="fas fa-arrow-right"></i></div>
+      </div>
+
+      <div class="prog-card" data-target="#programs">
+        <div class="prog-icon-wrap"><i class="fas fa-book-open"></i></div>
+        <div class="prog-title">Diploma Programs</div>
+        <div class="prog-desc">Hands-on training for professional and academic advancement.</div>
+        <div class="prog-link">View Programs <i class="fas fa-arrow-right"></i></div>
+      </div>
+
+      <div class="prog-card" data-target="#programs">
+        <div class="prog-icon-wrap"><i class="fas fa-users"></i></div>
+        <div class="prog-title">Professional Training</div>
+        <div class="prog-desc">Capacity building for professionals, institutions, and organizations.</div>
+        <div class="prog-link">View Programs <i class="fas fa-arrow-right"></i></div>
+      </div>
+
+      <div class="prog-card" data-target="#downloads">
+        <div class="prog-icon-wrap"><i class="fas fa-file-download"></i></div>
+        <div class="prog-title">Downloads</div>
+        <div class="prog-desc">Get forms, brochures, and other important documents here.</div>
+        <div class="prog-link">View Downloads <i class="fas fa-arrow-right"></i></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image -->
+        <div class="about-img-wrap">
+          <img
+            src="images/cart_img.png"
+            alt="CART Building - Modibbo Adama University"
+          />
+          <div class="about-badge">
+            <strong>10+</strong>
+            Years of Excellence
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div>
+          <div class="section-label">About CART</div>
+          <h2 class="section-title">Empowering Minds, <span>Building Futures</span></h2>
+          <p class="section-desc">The Center for Academic Resource and Training (CART) is a strategic institutional unit of Modibbo Adama University, Yola, responsible for academic and professional capacity development through certificate programs, diploma programs, workshops, and specialized training services.</p>
+          <p class="section-desc" style="margin-top:14px;">CART is committed to excellence in training, research support, and academic resource development for national growth. Our programs are designed to bridge the gap between academia and industry, ensuring graduates are job-ready and globally competitive.</p>
+
+          <div class="about-stats">
+            <div class="stat-box"><strong>50+</strong><span>Programs Offered</span></div>
+            <div class="stat-box"><strong>5,000+</strong><span>Students Trained</span></div>
+            <div class="stat-box"><strong>20+</strong><span>Expert Facilitators</span></div>
+            <div class="stat-box"><strong>100%</strong><span>Commitment to Quality</span></div>
+          </div>
+
+          <div class="about-cta">
+            <a href="#programs" class="btn-primary"><i class="fas fa-arrow-right"></i> Explore Our Programs</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY STRIP ===================== -->
+  <div class="gallery-strip" id="gallery">
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="Students in Class"/>
+      <div class="gallery-caption"><i class="fas fa-users"></i> Students in Class</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="Smart Lecture Board"/>
+      <div class="gallery-caption"><i class="fas fa-chalkboard-teacher"></i> Smart Lecture Board</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80" alt="CART Frontage"/>
+      <div class="gallery-caption"><i class="fas fa-building"></i> CART Frontage</div>
+    </div>
+
+    <div class="gallery-item gallery-ai">
+      <div class="ai-emoji">🤖</div>
+      <div class="ai-label">Animated &amp;<br>Interactive Section</div>
+    </div>
+
+  </div>
+
+  <!-- ===================== PROGRAMS FULL SECTION ===================== -->
+  <section class="section programs-section" id="programs">
+    <div class="container">
+
+      <div class="programs-section-header">
+        <div class="section-label">Our Academic Programs</div>
+        <h2 class="section-title">Explore Our <span>Programs &amp; Courses</span></h2>
+        <p class="section-desc">From short professional certificates to comprehensive diploma programs, CART offers world-class training for every career stage.</p>
+      </div>
+
+      <div class="programs-full-grid">
+
+        <!-- Certificate Programs -->
+        <div class="program-full-card">
+          <div class="program-card-top">
+            <div class="program-card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Certificate Programs</h3>
+          </div>
+          <div class="program-card-body">
+            <p>Short, industry-focused certificate programs designed to equip participants with practical, job-ready skills.</p>
+            <ul>
+              <li>Computer Applications &amp; ICT</li>
+              <li>Business Management</li>
+              <li>Project Management</li>
+              <li>Public Administration</li>
+            </ul>
+          </div>
+          <div class="program-card-footer">
+            <a href="#" class="card-link">View All Certificate Programs <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Diploma Programs -->
+        <div class="program-full-card">
+          <div class="program-card-top">
+            <div class="program-card-icon"><i class="fas fa-book-open"></i></div>
+            <h3>Diploma Programs</h3>
+          </div>
+          <div class="program-card-body">
+            <p>Comprehensive diploma courses combining theory and hands-on practice for deeper professional qualification.</p>
+            <ul>
+              <li>Diploma in Education</li>
+              <li>Diploma in Business Admin</li>
+              <li>Diploma in Health Management</li>
+              <li>Diploma in Public Relations</li>
+            </ul>
+          </div>
+          <div class="program-card-footer">
+            <a href="#" class="card-link">View All Diploma Programs <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Professional Courses -->
+        <div class="program-full-card">
+          <div class="program-card-top">
+            <div class="program-card-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Professional Courses</h3>
+          </div>
+          <div class="program-card-body">
+            <p>Tailor-made professional training programs for organizations, government agencies, and corporate bodies.</p>
+            <ul>
+              <li>Leadership &amp; Governance</li>
+              <li>Human Resource Management</li>
+              <li>Digital Marketing</li>
+              <li>Financial Management</li>
+            </ul>
+          </div>
+          <div class="program-card-footer">
+            <a href="#" class="card-link">View All Professional Courses <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== UNITS / DEPARTMENTS ===================== -->
+  <section class="section units-section" id="units">
+    <div class="container">
+
+      <div class="section-label">Our Structure</div>
+      <h2 class="section-title">Units &amp; <span>Departments</span></h2>
+      <p class="section-desc">CART operates through a well-structured set of units dedicated to delivering excellence in administration, academics, and support services.</p>
+
+      <div class="units-grid">
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-book"></i></div>
+          <h4>Academic Unit</h4>
+          <p>Overseeing all academic programs, curriculum development, and quality assurance across CART.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-calculator"></i></div>
+          <h4>Accounts</h4>
+          <p>Responsible for financial management, budget planning, and payment processing within CART.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-file-alt"></i></div>
+          <h4>Secretariat</h4>
+          <p>Handles official correspondence, documentation, records management, and administrative coordination.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-cogs"></i></div>
+          <h4>Administration</h4>
+          <p>Oversees the day-to-day operational management of CART's facilities and human resources.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-laptop-code"></i></div>
+          <h4>ICT Support</h4>
+          <p>Provides technology infrastructure, systems maintenance, and digital learning support services.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-clipboard-check"></i></div>
+          <h4>Admissions &amp; Registration</h4>
+          <p>Manages student admissions, enrollment processes, program registrations, and student records.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-flask"></i></div>
+          <h4>Research &amp; Development</h4>
+          <p>Drives innovation through research initiatives, publications, and academic collaborations.</p>
+        </div>
+
+        <div class="unit-card">
+          <div class="unit-icon"><i class="fas fa-handshake"></i></div>
+          <h4>Partnerships &amp; Outreach</h4>
+          <p>Builds strategic partnerships with industry, government, and international institutions.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WORKSHOPS & EVENTS ===================== -->
+  <section class="section events-section" id="events">
+    <div class="container">
+
+      <div class="events-header">
+        <div>
+          <div class="section-label">Stay Updated</div>
+          <h2 class="section-title">Workshops &amp;<br><span>Upcoming Events</span></h2>
+        </div>
+        <a href="#" class="btn-gold-outline" style="margin-top:8px;"><i class="fas fa-calendar-alt"></i> View All Events</a>
+      </div>
+
+      <div class="events-grid">
+
+        <div class="event-card">
+          <div class="event-card-banner"></div>
+          <div class="event-card-body">
+            <div class="event-type-tag">Workshop</div>
+            <div class="event-card-title">Solar Power Installation and Maintenance</div>
+            <div class="event-card-meta">
+              <span><i class="far fa-calendar-alt"></i> 14th – 18th July, 2025</span>
+              <span><i class="fas fa-map-marker-alt"></i> MAU Skills Acquisition Centre</span>
+              <span><i class="fas fa-clock"></i> 9:00am Daily</span>
+              <span><i class="fas fa-tag"></i> ₦20,000</span>
+            </div>
+          </div>
+          <div class="event-card-footer">
+            <a href="#registration" class="btn-gold-outline"><i class="fas fa-user-plus"></i> Register Now</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-banner"></div>
+          <div class="event-card-body">
+            <div class="event-type-tag">Professional Training</div>
+            <div class="event-card-title">Leadership and Public Administration Masterclass</div>
+            <div class="event-card-meta">
+              <span><i class="far fa-calendar-alt"></i> 21st – 25th July, 2025</span>
+              <span><i class="fas fa-map-marker-alt"></i> CART Training Hall</span>
+              <span><i class="fas fa-clock"></i> 10:00am Daily</span>
+              <span><i class="fas fa-tag"></i> ₦35,000</span>
+            </div>
+          </div>
+          <div class="event-card-footer">
+            <a href="#registration" class="btn-gold-outline"><i class="fas fa-user-plus"></i> Register Now</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-banner"></div>
+          <div class="event-card-body">
+            <div class="event-type-tag">Seminar</div>
+            <div class="event-card-title">Digital Skills &amp; Entrepreneurship for Youth</div>
+            <div class="event-card-meta">
+              <span><i class="far fa-calendar-alt"></i> 4th – 6th August, 2025</span>
+              <span><i class="fas fa-map-marker-alt"></i> ICT Centre, MAU</span>
+              <span><i class="fas fa-clock"></i> 9:00am Daily</span>
+              <span><i class="fas fa-tag"></i> ₦15,000</span>
+            </div>
+          </div>
+          <div class="event-card-footer">
+            <a href="#registration" class="btn-gold-outline"><i class="fas fa-user-plus"></i> Register Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner" id="registration">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2>Ready to Advance Your Career?</h2>
+          <p>Register for any of our programs today and take the next step in your professional journey.</p>
+        </div>
+        <div class="cta-buttons">
+          <a href="#" class="btn-navy"><i class="fas fa-user-plus"></i> Apply Now</a>
+          <a href="#contact" class="btn-cta-secondary"><i class="fas fa-envelope"></i> Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- About Column -->
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-circle">CART<br>MAU</div>
+            <div class="footer-logo-text">
+              <h3>CART</h3>
+              <p>Modibbo Adama University, Yola</p>
+            </div>
+          </div>
+          <p class="footer-about">CART is committed to excellence in training, research support, and academic resource development for national growth. We empower individuals and communities through cutting-edge programs.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Programs</a></li>
+            <li><a href="#events"><i class="fas fa-chevron-right"></i> Events</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Academic Calendar</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Downloads</a></li>
+            <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> MAU Website</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-list">
+            <li><i class="fas fa-map-marker-alt"></i> Modibbo Adama University, Yola, Adamawa State, Nigeria</li>
+            <li><i class="fas fa-phone"></i> +234 812 345 6789</li>
+            <li><i class="fas fa-envelope"></i> cart@mauyola.edu.ng</li>
+          </ul>
+        </div>
+
+        <!-- AI Hub -->
+        <div class="footer-col" id="ai-hub">
+          <h4>AI &amp; Innovation Hub</h4>
+          <div class="ai-hub-box">
+            <div class="ai-icon-large">AI</div>
+            <div class="ai-tag"><i class="fas fa-robot"></i> AI Powered</div>
+            <p>Explore our AI-powered services and digital innovations coming soon to support learning, research, and community development at CART.</p>
+            <a href="#" class="btn-gold-outline" style="font-size:12px; padding:8px 16px;"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span>Center for Academic Resource and Training (CART)</span> &ndash; Modibbo Adama University, Yola. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Site Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
