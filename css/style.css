@@ -857,7 +857,10 @@ nav a.active {
 
 /* =========== FOOTER =========== */
 footer {
-  background: #060f1e;
+  position: relative;
+  background:
+    linear-gradient(rgba(8,16,32,0.85), rgba(8,16,32,0.85)),
+    url('../images/maugate.png') center/cover no-repeat;
   color: #8aa4c8;
   padding: 64px 0 0;
 }
