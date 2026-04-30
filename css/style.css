@@ -859,8 +859,11 @@ nav a.active {
 footer {
   position: relative;
   background:
-    linear-gradient(rgba(8,16,32,0.85), rgba(8,16,32,0.85)),
-    url('../images/maugate.png') center/cover no-repeat;
+    linear-gradient(rgba(8,16,32,0.75), rgba(8,16,32,0.9)),
+    url('../images/maugateA.png') no-repeat;
+
+  background-size: cover;
+  background-position: center top;
   color: #8aa4c8;
   padding: 64px 0 0;
 }
